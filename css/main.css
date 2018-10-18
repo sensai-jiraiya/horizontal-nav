@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
+  background-color: #dbd6cf;
 }
 
 *, *::before, *::after {
@@ -8,9 +9,13 @@ html {
 }
 
 header {
+  padding: .01em;
+}
+
+body {
   background-color: #79756f;
-  padding: .6em .5em .75em;
-  margin: .3em;
+  padding: .1em;
+  margin: 0;
   border: 2px solid #595652;
 }
 
@@ -23,8 +28,8 @@ h1 {
 }
 
 nav {
-  font-family: "Bevan", sans-serif;
-  font-weight: normal;
+  font-family: Bevan, sans-serif;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -39,41 +44,32 @@ a {
   color: #fff;
   text-decoration: none;
   display: inline-block;
-
 }
 
 a:hover {
   color: #f33;
-}
-body {
-  background-color: #dbd6cf;
-  margin: 1em;
 }
 
 .box-1 {
   background-color: #713837;
   padding: .6em;
   border-radius: 3px;
-  margin: 1px;
 }
 
 .box-2 {
   background-color: #713837;
   padding: .6em;
   border-radius: 3px;
-  margin: 1px;
 }
 
 .box-3 {
   background-color: #713837;
   padding: .6em;
   border-radius: 3px;
-  margin: 1px;
 }
 
 .box-4 {
   background-color: #713837;
   padding: .6em;
   border-radius: 3px;
-  margin:1px;
 }
